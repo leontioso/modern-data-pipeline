@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data
+data/raw/*
+data/processed/*
+*.csv
+*.parquet
+*.json
+data/
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
+log/
+
+# Environment
+.env
+.env.local
+.env.*.local
+config/local.yml
+config/secrets.yml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# notes
+notes/
+
+# Airflow
